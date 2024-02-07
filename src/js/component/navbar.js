@@ -57,6 +57,13 @@ export const Navbar = () => {
 					<div className="mx-5 d-flex align-items-center">
 						<Link to="/demo">
 							<div className="btn-group align-items-center" role="group">
+								<button type="button" className="btn btn-light rounded-pill mx-3 d-flex flex-row align-items-center box-shadow" aria-expanded="false">
+									<div className="d-flex flex-row align-items-center justify-content-between">
+										<Link className="mx-1 mb-0 fs-5 text-decoration-none text-black" to={`/login`}>
+										LOGIN
+										</Link>
+									</div>
+								</button>
 								<button id="btnGroupDrop1" type="button" className="btn btn-light rounded-pill dropdown-toggle mx-3 d-flex flex-row align-items-center box-shadow" data-bs-toggle="dropdown" aria-expanded="false">
 									<div className="d-flex flex-row align-items-center justify-content-between">
 										<p className="mx-1 mb-0 fs-5">FAVORITES</p>
